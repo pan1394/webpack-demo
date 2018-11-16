@@ -11,3 +11,5 @@
     |-tsconfig.json -> typescript 编译配置文件.
     |-webpack.config.js -> webpack 打包配置文件.
 
+用于快速搭建一个前端小型项目. 
+比较重型的VUE, Angular对没有放置在里面.
