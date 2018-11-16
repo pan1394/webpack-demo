@@ -8,7 +8,7 @@ export class Greeter{
         this.greeting = message;
     }
 
-    greet(){
+    greet() : string {
         return "Hello, " + this.greeting;
     }
 }

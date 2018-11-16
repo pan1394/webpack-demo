@@ -25,3 +25,5 @@ $('#c').click(jump);
 console.log($("#a"));
 export {print, popupMsg};
 
+console.log('main.js -> Looks like we are in ', process.env.NODE_ENV);
+

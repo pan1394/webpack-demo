@@ -2,8 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-
-  devtool: 'inline-source-map',  // only for dev enviroment
   
   entry: {
     main :        './src/javascript/main.js',
