@@ -1,8 +1,13 @@
  
-    var echars = require("echarts");
+    var echarts = require('echarts/lib/echarts');
+    // 引入柱状图
+    require('echarts/lib/chart/bar');
+    // 引入提示框和标题组件
+    require('echarts/lib/component/tooltip');
+    require('echarts/lib/component/title');
     var $ =require("jquery");
     var env = process.env.NODE_ENV;
-    var mychars = echars.init(document.getElementById("barchart"));
+    var mychars = echarts.init(document.getElementById("barchart"));
     
     $(function(){
         function setBarcharOpetions(data){
